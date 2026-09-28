@@ -1,0 +1,79 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+           
+        }
+
+        .heading{
+            font-size: larger;
+            font-family: Arial, sans-serif;
+        }
+
+        .container1{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .button{
+            height: 2rem;
+            width: 100px;
+            border-radius: 5px;
+            color: rgb(0, 64, 255);
+            background-color:rgb(221, 238, 240);
+            font-size: large;
+        }
+
+        body {
+            background-color: #ddeeef;
+            padding: 40px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+      
+        #search {
+            display: block;
+            width: 350px;
+            padding: 12px;
+            margin: 0 auto 30px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+     
+        #studentContainer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+       
+        .card {
+            width: 280px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        .card h2 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .card p {
+            margin: 8px 0;
+            color: #555;
+        }
+
+        .marks {
+            font-weight: bold;
+            color: green;
+        }
